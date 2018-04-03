@@ -37,8 +37,8 @@ public class Test {
 		System.out.println(i);*/
 		
 		/*int data[] = {2, 5, 1, 3, 6, 4, 7, 8, 9};*/
-		int data[] = {3, 2, 1, 4, 5, 6, 7, 10, 9, 8};
-		new Sort().insertSort(data);
+		int data[] = {50, 10, 90, 30, 70, 40, 80, 60, 20};
+		new Sort().heapSort(data);
 		//AVLTreeNode root = new AVLTreeMethod().createAVLTree(data);
 		
 		//System.out.println(root);
